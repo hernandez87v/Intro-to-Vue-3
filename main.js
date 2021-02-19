@@ -1,7 +1,6 @@
-const app = Vue.createApp({
-  data() {
-    return {
-      product: 'socks',
-    };
+var app = new Vue({
+  el: '#app',
+  data: {
+    product: 'Socks',
   },
 });
